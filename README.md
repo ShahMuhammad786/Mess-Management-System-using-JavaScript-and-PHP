@@ -1,1 +1,1 @@
-# Sports-Events-Management-System-using-Java
+# Mess-Management-System-using-JavaScript-and-PHP
