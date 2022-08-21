@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin-MMS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Google fonts - Popppins for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,800">
+    <!-- orion icons-->
+    <link rel="stylesheet" href="css/orionicons.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png?3">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg px-4 py-2 bg-white shadow"><a href="#" class="sidebar-toggler text-gray-500 mr-4 mr-lg-5 lead"><i class="fas fa-align-left"></i></a><a href="index.html" class="navbar-brand font-weight-bold text-uppercase text-base">Mess Management System - SIBAU</a>
+        <a href="index.html">Home</a>/user
+        <ul class="ml-auto d-flex align-items-center list-unstyled mb-0">
+          
+          <!--***************** Notifications *****************-->
+          <li class="nav-item dropdown mr-3">
+            <a id="notifications" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle px-1">
+              <i class="fa fa-bell" ></i>
+              <span class="notification-icon" style="background-color: red;"></span>
+            </a>
+            <div aria-labelledby="notifications" class="dropdown-menu">
+              <a href="#" class="dropdown-item"> 
+                <div class="d-flex align-items-center">
+                  <div class="icon icon-sm bg-green text-white">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="text ml-2">
+                    <p class="mb-0">You have 6 new messages</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dropdown-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon icon-sm bg-blue text-white">
+                    <i class="fas fa-upload"></i>
+                  </div>
+                  <div class="text ml-2">
+                    <p class="mb-0">Server rebooted</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dropdown-item">
+                <div class="d-flex align-items-center">
+                  <div class="icon icon-sm bg-violet text-white">
+                    <i class="fab fa-twitter"></i>
+                  </div>
+                  <div class="text ml-2">
+                    <p class="mb-0">You have 2 followers</p>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="dropdown-item text-center">
+                <small class="font-weight-bold headings-font-family text-uppercase">View all notifications
+                </small>
+              </a>
+            </div>
+          </li>
+
+          <!--************** User Info **********************-->
+          <li class="nav-item dropdown ml-auto">
+            <a id="userInfo" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+              <img src="img/2.jpg" alt="Shah Muhammad" style="max-width: 2.5rem; " class="img-fluid rounded-circle shadow">
+            </a>
+            <div aria-labelledby="userInfo" class="dropdown-menu">
+              <a href="#" class="dropdown-item"><strong class="d-block text-uppercase headings-font-family">Shah Muhammad</strong><small>Web Developer</small>
+              </a>
+              <!-- <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">Settings</a>
+              <a href="#" class="dropdown-item">Activity log</a>
+              <div class="dropdown-divider"></div> -->
+              <a href="login.html" class="dropdown-item">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+<!-- ********************** HEADER ****************************** -->
+    </header>
+    <div class="d-flex align-items-stretch">
+      <div id="sidebar" class="sidebar py-3">
+        <div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
+        <ul class="sidebar-menu list-unstyled " >
+              <li class="sidebar-list-item">
+                <a href="index.html" class="sidebar-link text-muted active"><i class="fas fa-home mr-3" ></i><span>Home</span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a href="user.html" class="sidebar-link text-muted "><i class="fas fa-users mr-3" ></i><span>Users</span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a href="menue.html" class="sidebar-link text-muted"><i class="fas fa-utensils mr-3 "></i><span>Menue</span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a href="elements.html" class="sidebar-link text-muted"><i class="fas fa-clipboard mr-3"></i><span>Elements</span>
+                </a>
+                <li class="sidebar-list-item">
+                <a href="bills.html" class="sidebar-link text-muted"><i class="fas fa-clipboard mr-3"></i><span>Bills </span>
+                </a>
+              </li>
+              </li>
+        </ul>
+
+        <div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">EXTRAS</div>
+        <ul class="sidebar-menu list-unstyled">
+              <li class="sidebar-list-item">
+                <a href="payments.html" class="sidebar-link text-muted"><i class="fas fa-money-check-alt mr-3"></i><span>Payments</span>
+                </a>
+              </li>
+              <li class="sidebar-list-item">
+                <a href="messages.html" class="sidebar-link text-muted"><i class="fas fa-envelope-open-text mr-3"></i><span>Message</span>
+                </a>
+              </li>
+        </ul>
+      </div>
+
+<!--************* BODY ******************-->
+      <div class="page-holder w-100 d-flex flex-wrap">
+        <div class="container-fluid px-xl-5">
+          <!-- <div class="home-bgd"></div> -->
+          <section class="py-5">
+            <div class="row" >
+              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between" >
+                  <div class="flex-grow-1 d-flex align-items-center">             
+                    <div class="dot mr-3 bg-green"></div>
+                    <div class="text">
+                      <h6 class="mb-0">ADD &nbsp USERS</h6>
+                    </div>
+                  </div>
+                  <button class="btns" id="myBtn1">
+                    <div class="icon text-white bg-green">
+                    <i class="fas fa-plus-circle"></i>
+                  </div>
+                  </button>
+                  
+                  <!-- The ADDING -->
+                    <div id="myModal1" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Registeration of users</h2> <hr>
+                        <div class="modal-content-2">
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                  <div class="flex-grow-1 d-flex align-items-center">
+                    <div class="dot mr-3 bg-red"></div>
+                    <div class="text">
+                      <h6 class="mb-0">DELETE &nbsp USERS</h6>
+                    </div>
+                  </div>
+                  <button class="btns" id="myBtn2"> 
+                      <div class="icon text-white bg-red">
+                    <i class="far fa-trash-alt"></i>
+                  </div>
+                  </button> 
+                      <!-- The DELETE -->
+                    <div id="myModal2" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>DELETING the Records</h2><hr>                        
+                        <div class="modal-content-2">
+                            
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                  <div class="flex-grow-1 d-flex align-items-center">
+                    <div class="dot mr-3 bg-blue"></div>
+                    <div class="text">                       
+                      <h6 class="mb-0">UPDATE &nbsp USERS</h6>
+                    </div>
+                  </div>
+                  <button class="btns" id="myBtn3">
+                      <div class="icon text-white bg-blue">
+                    <i class="fas fa-pen-square"></i>
+                  </div>
+                  </button> 
+                      <!-- The UPDATING -->
+                    <div id="myModal3" class="modal">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                          <h2>Updating the Records</h2><hr>
+                        <div class="modal-content-2">
+                          
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                <div class="bg-white shadow roundy p-4 h-100 d-flex align-items-center justify-content-between">
+                  <div class="flex-grow-1 d-flex align-items-center">
+                    <div class="dot mr-3 bg-violet"></div>
+                    <div class="text">
+                      <h6 class="mb-0">SHOW &nbsp USERS</h6>
+                    </div>
+                  </div>
+                  <button class="btns">
+                      <a href="#results">
+                      <div class="icon text-white bg-violet">
+                    <i class="fas fa-eye"></i>
+                  </div></a>
+                  </button>  
+                     
+                </div>
+              </div>
+            </div>
+          </section>
+
+          
+         <br><br><hr><br><br>
+          
+          <!-- REsult SET -->
+          <section class="py-5" id="results">
+            <div class="row">
+              <div class="col-lg-12">
+                <br><hr><br>
+                <h3 style="text-align: center;"> Registered Users</h3>
+                <div class="message card px-5 py-3 mb-4 ">
+                    <div style="overflow-x:auto;">
+                      <table>
+                        <tr>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                          <th>Points</th>
+                        </tr>
+                        <tr>
+                          <td>Jill</td>
+                          <td>Smith</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                          <td>50</td>
+                        </tr>
+                        <tr>
+                          <td>Eve</td>
+                          <td>Jackson</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                          <td>94</td>
+                        </tr>
+                        <tr>
+                          <td>Adam</td>
+                          <td>Johnson</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                          <td>67</td>
+                        </tr>
+                      </table>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+        
+        <!-- Mailing**************-->
+          <section>
+            
+          </section>
+
+        </div> <!-- Body div closed -->
+
+        <footer class="footer bg-white shadow align-self-end py-3 px-xl-5 w-100">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-left text-primary">
+                <p class="mb-2 mb-md-0">SIBAU-CS Department&copy; 2020</p>
+              </div>
+              <div class="col-md-6 text-center text-md-right text-gray-400">
+                <p class="mb-0">Design by <a href="#" class="external text-gray-400">CSAIN @SIBAU</a></p>
+                <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="js/charts-home.js"></script>
+    <script src="js/front.js"></script>
+
+    <!-- FOR POPUPS -->
+    <!-- for popup -->
+    <script type="text/javascript">
+      // Get the modal
+      var modal1 = document.getElementById("myModal1");
+      var modal2 = document.getElementById("myModal2");
+      var modal3 = document.getElementById("myModal3");
+
+      // Get the button that opens the modal
+      var btn1 = document.getElementById("myBtn1");
+      var btn2 = document.getElementById("myBtn2");
+      var btn3 = document.getElementById("myBtn3");
+
+      // Get the <span> element that closes the modal
+      var span1 = document.getElementsByClassName("close")[0];
+      var span2 = document.getElementsByClassName("close")[1];
+      var span3 = document.getElementsByClassName("close")[2];
+
+      // When the user clicks the button, open the modal 
+      btn1.onclick = function() {modal1.style.display = "block";}
+      btn2.onclick = function() {modal2.style.display = "block";}
+      btn3.onclick = function() {modal3.style.display = "block";}
+
+      // When the user clicks on <span> (x), close the modal
+      span1.onclick = function() {modal1.style.display = "none";}
+      span2.onclick = function() {modal2.style.display = "none";}
+      span3.onclick = function() {modal3.style.display = "none";}
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal1) {modal1.style.display = "none";}
+        if (event.target == modal2) {modal2.style.display = "none";}
+        if (event.target == modal3) {modal3.style.display = "none";}
+      }
+      
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+  </body>
+</html>
